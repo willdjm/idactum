@@ -20,7 +20,7 @@ return (
 <div id="FinancialAgents" className='bg-Verde-500 md:bg-Verde-500 flex flex-col md:flex  md:flex-col text-white md:text-white justify-center md:justify-center items-center md:items-center md:p-0 p-0 px-8 md:px-0'>
 <img className='flex md:flex md:w-3/4 w-full justify-center md:justify-center items-center md:items-center' src={divisao} alt="" />
 
-<div className='flex flex-col md:flex-col justify-center md:justify-center w-full md:w-full md:flex md:max-w-5xl md:m-auto md:h-full md:items-center md:pb-10 pb-0 gap-0 md:gap-10'>
+<div className='flex flex-col md:flex-col justify-center md:justify-center w-full md:w-full md:flex md:max-w-5xl md:m-auto md:h-full md:items-center md:pb-10 pb-0 gap-0 md:gap-10 sm:gap-5 sm:flex sm:flex-col sm:justify-center sm:justify-items-center sm:items-center'>
         {/* Título */}
     <div className='md:flex flex flex-col md:flex-row md:items-baseline items-center md:justify-items-center justify-items-center md:justify-center justify-center gap-2 md:gap-3'>
       <img className="md:w-28 w-28" src={logo} alt="" />
@@ -28,8 +28,8 @@ return (
     </div>
 
         {/* Bloco1 */}
-        <div className="flex flex-col md:flex md:flex-row md:gap-10 gap-5  ">
-            <div className="max-w-sm md:flex md:flex-col flex flex-col   ">
+        <div className="flex flex-col md:flex md:flex-row md:gap-10 gap-5 sm:flex sm:flex-col ">
+            <div className="max-w-sm md:flex md:flex-col flex flex-col sm:flex sm:flex-col">
                 <h2 className="mb-2 md:text-lg text-sm md:pb-5 pb-3 text-black font-semibold">Tenha uma visão ampliada do mercado e fortaleça a rentabilidade dos investimentos imobiliários dos seus clientes</h2>
                 <p className="mb-2 text-xs">Inteligência dados e tecnologias para ajudar agentes financeiros a entendem a realidade imobiliária e explorar as oportunidades que o patrimônio imobiliário dos clientes, oferecendo soluções econômicas com mais rentabilidade: </p>
                 <ul className="max-w-md  list-disc list-inside text-xs">
@@ -51,20 +51,20 @@ return (
         </div>
         {/* Bloco2 */}
 
-<div className=' flex flex-col  justify-items-center items-center md:py-20'>
-<img className='absolute invisible md:flex md:flex-col md:justify-items-center md:visible md:w-[500px] md:justify-end md:items-center  md:z-10' src={seta} alt="" />
+<div className=' flex md:flex md:flex-col flex-col md:justify-items-center justify-items-center items-center md:items-center md:py-20'>
+<img className='absolute invisible md:flex md:flex-col md:justify-items-center md:visible md:w-[500px] sm:w-96 md:justify-end md:items-center md:z-10' src={seta} alt="" />
 <ol className="items-center  sm:flex">
-<li className=" md:flex flex md:items-center items-center md:text-white text-white md:relative relative md:bottom-16 -bottom-5 md:-left-44 left-0 md:z-20 z-30">
+<li className=" md:flex flex sm:flex md:items-center items-center md:text-white text-white md:relative relative sm:relative sm:bottom-0 md:bottom-16 -bottom-5 sm:left-3 md:-left-44 left-0 md:z-20 z-30">
 <span className="md:flex flex md:p-5 p-5 md:text-[10px] text-xs md:text-center text-center md:items-center items-center md:justify-center justify-center w-40 h-40 md:w-32 md:h-32 md:bg-Verde-500 md:border border bg-Verde-500 md:border-white border-white rounded-full md:rounded-full">
 Ative o patrimônio imobiliário na vida dos seus clientes
 </span>
 </li>
-<li className="flex md:flex items-center md:items-center text-white md:text-white relative md:relative bottom-0 left-0 md:bottom-7 md:left-0 z-10 md:z-20">
-<span className="flex md:flex md:p-6 text-xs md:text-[10px] text-center md:text-center items-center md:items-center justify-center md:justify-center w-40 h-40 md:w-32 md:h-32 md:bg-Verde-500 bg-Verde-500 border md:border border-white md:border-white rounded-full md:rounded-full">
+<li className="flex md:flex items-center md:items-center text-white md:text-white relative md:relative bottom-0 left-0 md:bottom-7 md:left-0 sm:relative sm:bottom-0 sm:left-0 z-10 md:z-20">
+<span className="flex md:flex md:p-6 p-6 sm:p-6 text-xs md:text-[10px] text-center md:text-center items-center md:items-center justify-center md:justify-center w-40 h-40 md:w-32 md:h-32 md:bg-Verde-500 bg-Verde-500 border md:border border-white md:border-white rounded-full md:rounded-full">
 Imóveis são a maior classe de ativos do brasil
 </span>
 </li>
-<li className=" md:flex flex md:items-center items-center md:text-white text-white md:relative relative md:bottom-16 bottom-5 md:left-44 left-0 md:z-0 z-0">
+<li className=" md:flex flex md:items-center items-center md:text-white text-white md:relative relative md:bottom-16 bottom-5 md:left-44 left-0 sm:relative sm:bottom-0 sm:-left-3 md:z-0 z-0">
 <span className="md:flex flex md:p-5 p-5 md:text-[10px] text-xs md:text-center text-center md:items-center items-center md:justify-center justify-center w-40 h-40 md:w-32 md:h-32 md:bg-Verde-500 md:border border bg-bg-Verde-500 md:border-white border-white rounded-full md:rounded-full">
 Para cada real em papel brasileiro, existem mais de 2 em patrimônio imobiliário
 </span>
@@ -113,7 +113,7 @@ Para cada real em papel brasileiro, existem mais de 2 em patrimônio imobiliári
             </Swiper>
         </div>
         {/* Bloco6 */}
-        <div className=' flex flex-col justify-items-center items-start gap-2 py-5'>
+        <div className=' flex flex-col md:flex md:flex-col sm:flex-col md:justify-center md:justify-items-center sm:justify-center sm:justify-items-center justify-items-center items-start sm:items-center sm:w-96 gap-2 py-5'>
             <p className='text-center font-bold text-xs md:text-xs'>Landbanks</p>
             <p className='md:w-96 text-xs md:text-xs'>Mapeamento de landbanks e de projetos em desenvolvimento das incorporadoras, incluindo valor da aquisição dos terrenos. (nome da incorporadora, movimentações e valores de transação do terreno)</p>
             <ul className="text-xs space-y-1 list-disc list-inside ">

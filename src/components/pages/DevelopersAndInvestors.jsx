@@ -1,6 +1,7 @@
 import logo from "../../assets/logo-i360-cinza.png";
 import video from "../../assets/video-incorporador2.mp4";
 
+
 import incorporadoras from "../../assets/img-grafico-incorporadoras-1.png";
 import incorporadoras2 from "../../assets/img-grafico-incorporadoras-2.png";
 import incorporadoras3 from "../../assets/img-grafico-incorporadoras-3.png";
@@ -11,7 +12,7 @@ export const DevelopersAndInvestors = () => {
 return (
 
 <div id="DevelopersAndInvestors" className=' flex flex-col md:flex md:flex-col text-white  justify-center items-center  p-5 md:p-5'>
-  <div className='flex flex-col w-full md:flex md:max-w-5xl md:m-auto md:h-full md:items-center py-5 md:py-10 gap-5 md:gap-10  '>
+  <div className='flex flex-col w-full md:flex md:max-w-5xl md:m-auto md:h-full md:items-center py-5 md:py-10 gap-5 md:gap-10 sm:flex sm:flex-col sm:justify-center sm:justify-items-center sm:items-center  '>
     {/* Título */}
     <div className='md:flex flex flex-col md:flex-row md:items-baseline items-center md:justify-items-center justify-items-center md:justify-center justify-center gap-2 md:gap-3'>
       <img className="md:w-28 w-28" src={logo} alt="" />
@@ -65,7 +66,7 @@ return (
     {/* Bloco3 */}
     <div className='items-center justify-center flex flex-col md:gap-10 md:py-20 '>
       <h1 className="font-semibold md:font-medium text-sm text-CinzaEscuro-500 md:text-CinzaEscuro-500 md:text-base text-center md:text-center">Veja como i360 é a solução ideal para sua atuação no mercado imobiliário</h1>
-      <video className=" w-full " controls>
+      <video className=" w-full" controls>
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>

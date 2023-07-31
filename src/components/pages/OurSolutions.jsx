@@ -10,7 +10,7 @@ return (
 <div id="OurSolutions" className='bg-CinzaEscuro-500 flex flex-col md:flex md:flex-col text-white  justify-center items-center md:justify-center md:items-center p-5 md:p-5'>
     <div className='flex flex-col w-full md:flex md:max-w-5xl md:m-auto md:h-full md:items-center py-0 md:py-10 md:gap-10 gap-0'>
         {/* Título */}
-        <div className='flex items-end justify-items-center'>
+        <div className='flex items-end justify-items-center sm:flex sm:flex-col sm:justify-center sm:justify-items-center sm:items-center'>
             <h1 className="md:text-white text-white md:text-center text-center md:font-semibold font-semibold md:text-xl text-xs">
                 Multiplataforma de <span className="md:text-3xl text-xl">
                     <span className="md:text-Verde-500 text-Verde-500">i</span>nteligência de dados</span> <br />
@@ -20,7 +20,7 @@ return (
         {/* Bloco1 */}
 
 
-<div className='md:flex md:flex-col md:items-center  '>
+<div className='md:flex md:flex-col md:items-center sm:flex sm:flex-col sm:justify-center sm:justify-items-center sm:items-center  '>
 <ol className="grid grid-cols-2 md:flex items-center md:items-center justify-items-center md:justify-items-center gap-7 md:gap-7">
 <img className='absolute md:absolute invisible md:visible md:w-[480px] md:justify-center md:items-center md:z-10' src={seta} alt="" />
 <li className=" md:flex flex md:items-center items-center md:text-white text-white md:relative relative md:-bottom-5 -bottom-5 md:left-0 left-8 md:z-20 z-30">
@@ -49,9 +49,9 @@ Tomadas de decisão mais eficazes
 
 <div className='md:flex md:flex-col md:w-full md:max-w-5xl md:m-auto md:h-full md:items-center md:justify-center md:justify-items-center'>
 <div className='md:flex md:items-center md:justify-items-center'>
-<div className="md:flex md:flex-col md:gap-2 gap-5 flex flex-col md:items-start items-center">                    
+<div className="md:flex md:flex-col md:gap-2 gap-5 flex flex-col md:items-start items-center ">                    
 <img className="md:flex md:w-28 flex w-28 items-center" src={logo} alt="" />
-<span className="md:flex flex md:text-[15px] text-base md:items-center items-center text-center md:text-left md:justify-center justify-center md:w-64">PODEROSA FERRAMENTA PARA ENRIQUECIMENTO DE INFORMAÇÕES E TOMADA DE DECISÃO.</span>
+<span className="md:flex flex md:text-[15px] text-base md:items-center items-center text-center md:text-left md:justify-center justify-center md:w-64 sm:w-3/4">PODEROSA FERRAMENTA PARA ENRIQUECIMENTO DE INFORMAÇÕES E TOMADA DE DECISÃO.</span>
 </div>
 <div className="items-center justify-center flex">                    
 <span className="md:flex flex md:bg-Verde-500 bg-Verde-500 md:text-[9px] text-xs md:text-center text-center md:items-center items-center md:justify-center justify-center md:w-24 w-32 md:p-3 p-5 md:h-24 h-32 md:rounded-full rounded-full md:relative relative md:bottom-5 -bottom-5 md:left-20 left-0">100% digital e rápida. Na palma da sua mão.</span>
@@ -63,7 +63,7 @@ Tomadas de decisão mais eficazes
 </div>
 
 {/* Bloco4 */}
-<div className='w-full md:w-full md:flex md:flex-col md:max-w-5xl max-w-5xl md:m-auto m-auto md:h-full h-full md:items-center items-center'>
+<div className='w-full md:w-full md:flex md:flex-col md:max-w-5xl max-w-5xl md:m-auto m-auto md:h-full h-full md:items-center items-center sm:flex sm:flex-col sm:justify-center sm:justify-items-center sm:items-center'>
 <div className='flex md:flex md:p-3 p-0'>
 <div className="bg-white md:bg-white text-CinzaEscuro-500 md:text-CinzaEscuro-500 md:grid grid gap-3 md:gap-3 p-3 md:p-3 w-80 md:w-80 justify-items-center md:justify-items-center rounded-s-2xl md:rounded-s-2xl">
 <img className="w-16 md:w-16 items-center md:items-center justify-center md:justify-center" src={icon2} alt="" />
