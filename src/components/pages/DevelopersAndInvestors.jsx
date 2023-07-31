@@ -65,7 +65,7 @@ return (
     {/* Bloco3 */}
     <div className='items-center justify-center flex flex-col md:gap-10 md:py-20 '>
       <h1 className="font-semibold md:font-medium text-sm text-CinzaEscuro-500 md:text-CinzaEscuro-500 md:text-base text-center md:text-center">Veja como i360 é a solução ideal para sua atuação no mercado imobiliário</h1>
-      <video className=" w-full ">
+      <video className=" w-full " controls>
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
