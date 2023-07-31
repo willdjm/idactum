@@ -1,0 +1,30 @@
+
+
+@media screen and (max-width:940px) {
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        flex-direction: column;
+        height: 90vh;
+        z-index: 999;
+        transition: .3s;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,36 +1,36 @@
-import "./global.css";
 import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
-import { Contato } from "./components/contato/Contato";
-import { Agentes } from "./components/quemsomos/Agentes";
-import { Incorporadoras } from "./components/quemsomos/Incorporadoras";
-import { Nossassolucoes } from "./components/quemsomos/Nossassolucoes";
-import { Home } from "./components/home/Home";
-import { Whatsapp } from "./components/home/Whatsapp";
+
+import { Navbar } from "./components/Navbar";
+import { ScrollToTopp } from "./components/ScrollToTopp";
+
+import { Contact } from "../src/components/pages/Contact";
+import { VideoBanner } from "./components/VideoBanner";
+import { FinancialAgents } from "../src/components/pages/FinancialAgents";
+import { DevelopersAndInvestors } from "../src/components/pages/DevelopersAndInvestors";
+import { OurSolutions } from "../src/components/pages/OurSolutions";
+import "./global.css";
+
 
 
 
 export default function App() {
+
   return (
-    <div>
-      <header>
-        <Header/>
-      </header>      
-        <div>
-          <main>
-            <Home/>
-            <Nossassolucoes/>
-            <Incorporadoras/>
-            <Agentes/>
-            <Contato/>
-            <Whatsapp/>
-          </main>
-        </div>
-      <footer>
-        <Footer
-        />
-      </footer>
-    </div>
-  )
+    <>
+
+   
+    <Navbar/>
+    <VideoBanner/>
+   
+    <OurSolutions/> 
+    <DevelopersAndInvestors/>
+    <FinancialAgents/>
+     <Contact/>
+
+    <Footer/>
+    <ScrollToTopp/>
+
+    </>
+    )
 }
 
