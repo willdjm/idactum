@@ -1,6 +1,5 @@
 import logo from "../../assets/logo-i360-cinza.webp";
 import video from "../../assets/video-incorporador2.mp4";
-
 import incorporadoras from "../../assets/img-grafico-incorporadoras-1.webp";
 import incorporadoras2 from "../../assets/img-grafico-incorporadoras-2.webp";
 import incorporadoras3 from "../../assets/img-grafico-incorporadoras-3.webp";
@@ -12,17 +11,17 @@ return (
 <div id="DevelopersAndInvestors" className='flex flex-col justify-center items-center py-20 text-gray-500'>
   <div className="flex flex-col justify-between justify-items-center max-w-6xl gap-20">
     <div className="flex items-end gap-8 justify-items-center justify-center max-w-6xl">
-      <img className="" src={logo} alt="" />
-      <h1 className=' text-center  font-medium text-5xl'><span className='text-green-500'>i</span>ncorporadoras e <span className='text-green-500'>i</span>nvestidores</h1>
+      <img src={logo} alt="" />
+      <h1 className='text-center font-medium text-5xl'><span className='text-green-500'>i</span>ncorporadoras e <span className='text-green-500'>i</span>nvestidores</h1>
     </div>
     <div className="flex justify-items-center gap-10 justify-between max-w-6xl">
       <div className="flex flex-col max-w-xl gap-10 ">
         <h2 className="text-[1.75rem] font-semibold">Dê às suas incorporações imobiliárias a segurança que só os dados podem garantir.</h2>
-        <p className=" text-xl text-justify ">A plataforma inteligente que compila e segmenta os dados oriundos do mercado imobiliário, abrindo terreno para incorporadoras tomarem decisões mais assertivas, viáveis e rentáveis.</p>
+        <p className="text-xl text-justify">A plataforma inteligente que compila e segmenta os dados oriundos do mercado imobiliário, abrindo terreno para incorporadoras tomarem decisões mais assertivas, viáveis e rentáveis.</p>
       </div>
-      <div className="flex flex-col max-w-xl py-10 px-10 pb-24 gap-5 bg-gray-300 opacity-75 rounded-lg ">
+      <div className="flex flex-col max-w-xl py-10 px-10 pb-24 gap-5 bg-gray-300 opacity-75 rounded-lg">
         <h2 className="text-xl text-black ">Acesso a informações para visão estratégica:</h2>
-        <ul className="text-xl list-disc flex flex-col gap-3 ">
+        <ul className="text-xl list-disc flex flex-col gap-3">
           <li>A maneira mais completa de enxergar o desenvolvimento imobiliário de São Paulo</li>
           <li>Landbank, projetos em desenvolvimento, lançamentos e empreendimentos prontos em uma só plataforma</li>
           <li>Características de empreendimentos e projetos, dados de transação e estimativa de valorização.</li>
@@ -30,7 +29,7 @@ return (
       </div>
     </div>
     <ol className="flex justify-items-center items-center justify-center max-w-6xl">
-      <li className="items-center     flex flex-col  relative  bottom-56 -left-5">
+      <li className="items-center flex flex-col relative bottom-56 -left-5">
         <span className="flex text-base font-bold text-green-500 text-center items-center justify-center">
           Desde a prospecção
         </span>
@@ -39,7 +38,7 @@ return (
         </span>
         <img className="p-5" src={incorporadoras} alt="" />
       </li>
-      <li className="items-center flex flex-col  relative bottom-12">
+      <li className="items-center flex flex-col relative bottom-12">
         <span className="flex text-base font-bold text-green-500 text-center items-center justify-center">
           Com dados estratégicos
         </span>
@@ -48,7 +47,7 @@ return (
         </span>
         <img src={incorporadoras2} alt="" />
       </li>
-      <li className="items-center flex flex-col  relative bottom-40 left-0 ">
+      <li className="items-center flex flex-col relative bottom-40 left-0">
         <img className="p-5" src={incorporadoras3} alt="" />
         <span className="flex text-base font-bold text-green-500 text-center items-center justify-center">
           Otimiza a tomada de decisão
@@ -60,7 +59,7 @@ return (
     </ol>
     {/* Bloco3 */}
     <div className="py-20 gap-20 flex items-center justify-center flex-col">
-      <h1 className="font-semibold text-gray-500 text-2xl text-center items-center ">Veja como i360 é a solução ideal para sua atuação no mercado imobiliário</h1>
+      <h1 className="font-semibold text-gray-500 text-2xl text-center items-center">Veja como i360 é a solução ideal para sua atuação no mercado imobiliário</h1>
       <video className="w-full" controls>
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.

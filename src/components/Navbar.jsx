@@ -17,7 +17,7 @@ const closeMenu = () => setClick(false)
 return (
 
 <div className='flex flex-col justify-center items-center pt-5'>
-    <nav className='navbar justify-between flex  justify-items-center w-full max-w-6xl'>
+    <nav className='navbar justify-between flex justify-items-center w-full max-w-6xl'>
 
         <a href='/' className='logo'>
             <img className='' src={logo} alt='logo' />
@@ -28,8 +28,8 @@ return (
                 : (<FaBars size={30} style={{ color: '#000000' }} />)}
         </div>
 
-        <div className={click ? "nav-menu active flex flex-col text-center top-20 w-full left-0 bg-gray-500 text-white font-medium " : "nav-menu flex flex-col gap-5 p-3 text-gray-500"}>
-            <ul className={click ? 'flex flex-col ' : "nav-menu flex gap-5 font-medium"}>
+        <div className={click ? "nav-menu active flex flex-col text-center top-20 w-full left-0 bg-gray-500 text-white font-medium" : "nav-menu flex flex-col gap-5 p-3 text-gray-500"}>
+            <ul className={click ? 'flex flex-col' : "nav-menu flex gap-5 font-medium"}>
                 <li>
                     <Link className='cursor-pointer' to="/" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu}>Home</Link>
                 </li>
@@ -54,7 +54,7 @@ return (
                     <Link className='cursor-pointer flex flex-col items-center justify-center' to="#" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu}><FaLinkedin size={25} /></Link>
                 </li>
             </ul>
-            <ul className={click ? 'flex flex-col ' : "nav-menu flex justify-end gap-9 font-semibold overline decoration-2 decoration-green-500 text-gray-500"}>
+            <ul className={click ? 'flex flex-col' : "nav-menu flex justify-end gap-9 font-semibold overline decoration-2 decoration-green-500 text-gray-500"}>
                 <li>
                     <Link className='cursor-pointer' to="OurSolutions" spy={true} smooth={true} duration={500} delay={100} onClick={closeMenu}>Nossas Soluções</Link>
                 </li>
