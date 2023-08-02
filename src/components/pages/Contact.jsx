@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import emailjs from "@emailjs/browser";
 
-import divisao from "../../assets/sombra-divisao-verde.png";
+import divisao from "../../assets/sombra-divisao-verde.webp";
 
 export function Contact() {
 const [name, setName] = useState('')
@@ -38,29 +38,23 @@ emailjs.send("service_ouz7tiv", "template_ce6ttz4", templateParams, "pOINiBmviTK
 
 return (
 
-<div id="contact" className='flex flex-col md:flex md:flex-col  justify-center items-center  p-5 md:p-5'>
-  <div className='flex flex-col w-full md:flex md:max-w-5xl md:m-auto md:h-full md:items-center gap-5 py-10'>
+<div className='flex flex-col justify-center items-center py-36'>
+  <div className="flex flex-col justify-center items-center justify-items-center max-w-6xl">
     {/* Título */}
-    <div className='flex flex-col md:flex md:flex-col md:justify-items-center justify-items-center md:justify-center justify-center items-center md:items-center md:py-3 py-3'>
-    <h1 className="md:text-center text-center md:font-bold font-medium md:text-xl text-sm ">iDactum é a multiplataforma 100% digital que viabiliza a identificação de <br />
-    <span className="text-xl md:text-3xl">dados estratég<span className="text-Verde-500 md:text-Verde-500">i</span>cos</span> inerentes ao imóvel.</h1>
+    <div className="flex flex-col items-center justify-items-center justify-center ">
+      <p className='font-bold text-CinzaEscuro-500 text-center text-3xl pb-28 '>
+        iDactum é a multiplataforma 100% digital que viabiliza a identificação de
+        <span className="text-6xl font-bold"> dados estratég<span className="text-Verde-500 text-6xl">i</span>cos</span> inerentes ao imóvel.</p>
+      <img src={divisao} alt="" />
+      <h1 id="contact" className='font-bold text-3xl pb-10'>Contato</h1>
     </div>
     {/* Bloco1 */}
-    <div className=' flex flex-col md:flex-col justify-items-center justify-center items-center '>
-      <img className='flex h-auto top-full justify-center items-center' src={divisao} alt="" />
-      <h1 className='md:font-bold font-medium tracking-wide md:tracking-wide text-2xl md:text-lg'>Contato</h1>
-    </div>
     {/* Formulario */}
-
-
-
-
-
-    <form className='flex flex-col md:flex-row md:gap-10 gap-2 items-center justify-items-center justify-center md:items-start md:w-3/4 ' onSubmit={sendEmail}>
-      <div className='flex flex-col md:flex-auto  w-full md:w-auto'>
+    <form className='flex justify-center items-start w-full gap-24' onSubmit={sendEmail}>
+      <div className='flex flex-col flex-auto gap-3  w-auto'>
         <div className="mb-1.5">
           <input
-            className=" border border-CinzaClaro-600 text-gray-900 text-sm rounded-md focus:ring-Verde-500 focus:border-Verde-500 block w-full p-1.5"
+            className=" border border-CinzaClaro-600 text-gray-900 text-base rounded-md focus:ring-Verde-500 focus:border-Verde-500 block w-full p-3 placeholder:font-semibold"
             id="name"
             type="text"
             placeholder="Nome"
@@ -71,7 +65,7 @@ return (
         </div>
         <div className="mb-1.5">
           <input
-            className=" border border-CinzaClaro-600 text-gray-900 text-sm rounded-md focus:ring-Verde-500 focus:border-Verde-500 block w-full p-1.5"
+            className=" border border-CinzaClaro-600 text-gray-900 text-base rounded-md focus:ring-Verde-500 focus:border-Verde-500 block w-full p-3 placeholder:font-semibold"
             id="email"
             type="email"
             placeholder="E-mail"
@@ -82,7 +76,7 @@ return (
         </div>
         <div className="mb-1.5">
           <input
-            className=" border border-CinzaClaro-600 text-gray-900 text-sm rounded-md focus:ring-Verde-500 focus:border-Verde-500 block w-full p-1.5"
+            className=" border border-CinzaClaro-600 text-gray-900 text-base rounded-md focus:ring-Verde-500 focus:border-Verde-500 block w-96 p-3 placeholder:font-semibold"
             id="phohe"
             type="tel"
             placeholder="DDD + Celular"
@@ -92,10 +86,10 @@ return (
           />
         </div>
       </div>
-      <div className='flex flex-col md:flex-auto w-full md:w-auto'>
-        <div className="mb-1 items-end gap-2 justify-end justify-items-end flex flex-col"  >
+      <div className='flex flex-col flex-auto gap-3  w-auto'>
+        <div className=" items-end gap-2 justify-end justify-items-end flex flex-col"  >
           <textarea
-            className=" border border-CinzaClaro-600 text-gray-900 text-sm rounded-md focus:ring-Verde-500 focus:border-Verde-500 block w-full p-2.5"
+            className=" border border-CinzaClaro-600 text-gray-900 text-base rounded-md focus:ring-Verde-500 focus:border-Verde-500 block w-full font-medium p-9 placeholder:font-semibold"
             id="message"
             rows="5"
             placeholder="Mensagem..."
@@ -104,7 +98,9 @@ return (
           />
           <button
             type="submit"
-            className="text-white bg-Verde-500 hover:bg-Verde-400 focus:ring-4 focus:outline-none focus:ring-Verde-500  rounded-md text-sm    py-1.5 px-8 text-center ">ENVIAR</button>
+            className="text-white bg-Verde-500 hover:bg-Verde-400 focus:ring-4 focus:outline-none focus:ring-Verde-500  rounded-md text-base    p-2 w-44 text-center ">
+            ENVIAR
+          </button>
         </div>
       </div>
     </form>

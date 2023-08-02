@@ -1,5 +1,5 @@
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import whats from "../assets/whats.png";
+import whats from "../assets/whats.webp";
 
 
 export function Whatsapp(){
