@@ -5,7 +5,7 @@ export function ScrollToTopp() {
     <div>
       <ScrollToTop 
       smooth
-      className="invisible md:visible md:flex md:justify-center justify-center md:items-center items-center md:justify-items-center justify-items-center md:text-CinzaClaro-500 md:hover:text-Verde-500 md:bg-Verde-500 rounded-full border border-Verde-500    hover:bg-Verde-300  focus:ring-4 focus:ring-Verde-500 md:focus:outline-none"
+      className="invisible md:visible md:flex md:justify-center justify-center md:items-center items-center md:justify-items-center justify-items-center md:text-gray-500 md:hover:text-green-500 md:bg-green-500 rounded-full border border-green-500    hover:bg-green-300  focus:ring-4 focus:ring-green-500 md:focus:outline-none"
       />
     </div>
   );

@@ -15,12 +15,12 @@ export const FinancialAgents = () => {
 
 return (
 
-<div id="FinancialAgents" className='flex flex-col justify-center items-center bg-Verde-500'>
+<div id="FinancialAgents" className='flex flex-col justify-center items-center bg-green-500 text-gray-500'>
     <div className="flex flex-col justify-between justify-items-center max-w-6xl">
         <img src={divisao} alt="" />
         <div className="flex items-end justify-items-center justify-center top-0 pb-16 gap-10 ">
             <img className="" src={logo} alt="" />
-            <h1 className='font-medium  text-CinzaEscuro-500 text-5xl'>agentes f<span className='text-white'>i</span>nanceiros</h1>
+            <h1 className='font-medium  text-gray-500 text-5xl'>agentes f<span className='text-gray-50'>i</span>nanceiros</h1>
         </div>
         <div className="flex justify-items-center justify-between ">
             <div className="flex flex-col max-w-lg">
@@ -33,7 +33,7 @@ return (
                     <li>Seguros.</li>
                 </ul>
             </div>
-            <div className="flex flex-col items-start justify-center max-w-xl  pt-10 p-10 gap-7 bg-CinzaClaro-300 opacity-40 rounded-3xl font-medium ">
+            <div className="flex flex-col items-start justify-center max-w-xl  pt-10 p-10 gap-7 bg-gray-300 opacity-40 rounded-3xl font-medium ">
                 <p className=" text-xl text-justify ">Conte com a solução i360, e tenha visão ampla do:</p>
                 <ul className="text-xl list-disc list-inside gap-1 flex flex-col">
                     <li>Desenvolvimento imobiliário</li>
@@ -47,17 +47,17 @@ return (
             <ol className="flex justify-items-center justify-center items-center max-w-6xl">
                 <img className='flex absolute items-center justify-center justify-items-center z-10' src={seta} alt="" />
                 <li className=" flex items-center text-white relative bottom-8 -left-52 z-30">
-                    <span className="flex p-7 text-base text-center items-center justify-center w-56 h-56 bg-Verde-500 border border-white rounded-full">
+                    <span className="flex p-7 text-base text-center items-center justify-center w-56 h-56 bg-green-500 border border-white rounded-full">
                         Ative o patrimônio imobiliário na vida dos seus clientes
                     </span>
                 </li>
                 <li className=" flex items-center text-white relative -bottom-0 left-0 z-30">
-                    <span className="flex p-10 text-base text-center items-center justify-center w-56 h-56 bg-Verde-500 border border-white rounded-full">
+                    <span className="flex p-10 text-base text-center items-center justify-center w-56 h-56 bg-green-500 border border-white rounded-full">
                         Imóveis são a maior classe de ativos do brasil
                     </span>
                 </li>
                 <li className=" flex items-center text-white relative bottom-8 left-52 z-0">
-                    <span className="flex p-8 text-base text-center items-center justify-center w-56 h-56 bg-Verde-500 border border-white rounded-full">
+                    <span className="flex p-8 text-base text-center items-center justify-center w-56 h-56 bg-green-500 border border-white rounded-full">
                         Para cada real em papel brasileiro, existem mais de 2 em patrimônio imobiliário
                     </span>
                 </li>
@@ -137,7 +137,7 @@ return (
         </div>
         {/* Bloco8 */}
         <div className="flex items-end gap-5 justify-items-center justify-center max-w-6xl">
-            <p className='font-bold text-CinzaEscuro-500 text-center text-3xl'>
+            <p className='font-bold text-gray-500 text-center text-3xl'>
                 Faça a diferença na oferta de investimentos, construa oportunidades
                 <br />com o <span className="text-5xl font-bold">at<span className="text-white text-5xl">i</span>vo imobiliário</span> dos seus clientes</p>
         </div>

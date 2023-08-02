@@ -6,7 +6,7 @@ export function Footer() {
 
 return (
 
-<footer className='flex flex-col justify-center items-center p-20 bg-gradient-to-b from-CinzaEscuro-500 bg-Verde-500 text-white '>
+<footer className='flex flex-col justify-center items-center p-20 bg-gradient-to-b from-gray-500 bg-green-500 text-white '>
     <div className='justify-between flex flex-col  justify-items-center w-full max-w-6xl'>
         <div className="grid grid-cols-5 items-start justify-start justify-items-start ">
             <div>
@@ -79,7 +79,7 @@ return (
                 <h1 className="mb-10 text-base font-semibold ">Acesso</h1>
                 <ul className="">
                     <li className="mb-5">
-                        <a href="#" className="bg-white text-CinzaEscuro-500 rounded-full py-1 px-4 hover:bg-Verde-500">Acessar iDactum</a>
+                        <a href="#" className="bg-white text-gray-500 rounded-full py-1 px-4 hover:bg-green-500">Acessar iDactum</a>
                     </li>
                 </ul>
             </div>
