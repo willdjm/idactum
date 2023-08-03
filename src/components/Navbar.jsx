@@ -15,21 +15,19 @@ const handleClick = () => setClick(!click)
 const closeMenu = () => setClick(false)
 
 return (
-
-<div className='flex flex-col justify-center items-center pt-5'>
-    <nav className='navbar justify-between flex justify-items-center w-full max-w-6xl'>
+    <nav className='navbar justify-between flex  justify-items-center w-full max-w-6xl'>
 
         <a href='/' className='logo'>
-            <img className='' src={logo} alt='logo' />
+            <img className='w-52 md:w-full' src={logo} alt='logo' />
         </a>
 
-        <div className='block md:hidden' onClick={handleClick}>
+        <div className='flex items-center justify-center md:hidden' onClick={handleClick}>
             {click ? (<FaTimes size={30} style={{ color: '#000000' }} />)
                 : (<FaBars size={30} style={{ color: '#000000' }} />)}
         </div>
 
-        <div className={click ? "nav-menu active flex flex-col text-center top-20 w-full left-0 bg-gray-500 text-white font-medium" : "nav-menu flex flex-col gap-5 p-3 text-gray-500"}>
-            <ul className={click ? 'flex flex-col' : "nav-menu flex gap-5 font-medium"}>
+        <div className={click ? "nav-menu active flex flex-col text-center top-20 w-full left-0 bg-gray-500 text-white font-medium " : "nav-menu flex flex-col gap-5  text-gray-500"}>
+            <ul className={click ? 'md:flex md:flex-col flex flex-col gap-5 p-5' : "nav-menu flex gap-5 font-medium"}>
                 <li>
                     <Link className='cursor-pointer' to="/" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu}>Home</Link>
                 </li>
@@ -40,12 +38,12 @@ return (
                     <Link className='cursor-pointer' to="contact" spy={true} smooth={true} duration={500} delay={100} onClick={closeMenu}>Contato</Link>
                 </li>
                 <li>
-                    <Link
-                        className='cursor-pointer rounded-full py-1 px-4 border md:border-gray-500 hover:bg-green-500 border-white'
-                        to="#" spy={true} smooth={true} offset={-150} duration={500} delay={100} onClick={closeMenu} >Acessar <span className='text-green-500'>i</span>Dactum</Link>
-                </li>
+                <button className="relative h-7 w-40 overflow-hidden border md:border-gray-500 md:text-gray-500 rounded-full shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-green-500 before:duration-500 before:ease-out hover:text-white hover:border-white hover:before:h-40 hover:before:w-40 ">
+      <span className="relative z-10">Acessar iDactum</span>
+    </button>
+</li>
                 <li>
-                    <Link to="OurSolutions" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu} className='flex gap-1 items-center justify-center text-lg cursor-pointer'><FaWhatsapp className='md:text-emerald-500 text-white cursor-pointer' size={25} /> (11)-94567-1234</Link>
+                    <Link to="OurSolutions" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu} className='flex gap-1 items-center justify-center text-lg cursor-pointer'><FaWhatsapp className='md:text-emerald-500 text-white cursor-pointer hover:text-base' size={25} /> (11)-94567-1234</Link>
                 </li>
                 <li>
                     <Link className='cursor-pointer flex flex-col items-center justify-center' to="#" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu}><AiOutlineInstagram size={25} /></Link>
@@ -54,7 +52,7 @@ return (
                     <Link className='cursor-pointer flex flex-col items-center justify-center' to="#" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu}><FaLinkedin size={25} /></Link>
                 </li>
             </ul>
-            <ul className={click ? 'flex flex-col' : "nav-menu flex justify-end gap-9 font-semibold overline decoration-2 decoration-green-500 text-gray-500"}>
+            <ul className={click ? 'md:flex md:flex-col flex flex-col gap-5 p-5' : "nav-menu flex justify-end gap-9 font-semibold overline decoration-2 decoration-green-500 text-gray-500"}>
                 <li>
                     <Link className='cursor-pointer' to="OurSolutions" spy={true} smooth={true} duration={500} delay={100} onClick={closeMenu}>Nossas Soluções</Link>
                 </li>
@@ -67,6 +65,5 @@ return (
             </ul>
         </div>
     </nav>
-</div>
 )
 }

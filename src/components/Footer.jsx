@@ -6,12 +6,12 @@ export function Footer() {
 
 return (
 
-<footer className='flex flex-col justify-center items-center p-20 bg-gradient-to-b from-gray-500 bg-green-500 text-white'>
-    <div className='justify-between flex flex-col justify-items-center w-full max-w-6xl'>
-        <div className="grid grid-cols-5 items-start justify-start justify-items-start">
+<footer className='justify-between flex flex-col  justify-items-center w-full max-w-6xl'>
+
+        <div className="md:grid md:grid-cols-5  items-start justify-start justify-items-start ">
             <div>
-                <h1 className="mb-10 text-base font-semibold">Institucional</h1>
-                <ul>
+                <h1 className="mb-10 text-base font-semibold ">Institucional</h1>
+                <ul className="">
                     <li className="mb-5">
                         <a href="#" className="hover:underline">Home</a>
                     </li>
@@ -24,8 +24,8 @@ return (
                 </ul>
             </div>
             <div>
-                <h1 className="mb-10 text-base font-semibold">i360</h1>
-                <ul>
+                <h1 className="mb-10 text-base font-semibold ">i360</h1>
+                <ul className="">
                     <li className="mb-5">
                         <a href="#" className="hover:underline">Incorporadoras</a>
                     </li>
@@ -35,10 +35,10 @@ return (
                 </ul>
             </div>
             <div>
-                <h1 className="mb-10 text-base font-semibold">iPatri</h1>
-                <ul>
+                <h1 className="mb-10 text-base font-semibold ">iPatri</h1>
+                <ul className="">
                     <li className="mb-5">
-                        <a href="#" className="hover:underline">Acessores de Investimento</a>
+                        <a href="#" className="hover:underline ">Acessores de Investimento</a>
                     </li>
                     <li>
                         <a href="#" className="hover:underline">Indivíduos</a>
@@ -46,8 +46,8 @@ return (
                 </ul>
             </div>
             <div>
-                <h1 className="mb-10 text-base font-semibold">Contato</h1>
-                <ul>
+                <h1 className="mb-10 text-base font-semibold ">Contato</h1>
+                <ul className="">
                     <div className='flex mb-5 gap-2 items-center'>
                         <a href="#" className="hover:underline"><FaWhatsapp size={25} /></a>
                         <li>
@@ -77,15 +77,16 @@ return (
             </div>
             <div className='md:flex md:flex-col flex flex-col gap-0 md:gap-2 md:items-start md:justify-start md:justify-items-center justify-center items-center justify-items-center'>
                 <h1 className="mb-10 text-base font-semibold ">Acesso</h1>
-                <ul>
+                <ul className="">
                     <li className="mb-5">
-                        <a href="#" className="bg-white text-gray-500 rounded-full py-1 px-4 hover:bg-green-500">Acessar iDactum</a>
-                    </li>
+                    <button className="relative h-7 w-40 overflow-hidden border md:border-white md:bg-white md:text-gray-500 rounded-full shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-green-500 before:duration-500 before:ease-out hover:text-white hover:before:h-40 hover:before:w-40 ">
+      <span className="relative z-10">Acessar iDactum</span>
+    </button>                    </li>
                 </ul>
             </div>
         </div>
-        <span className="text-sm">© Copyrigth 2023 iDactum Tecnologia Imobiliária - Todos os direitos reservados.</span>
-    </div>
+        <span className="text-sm ">© Copyrigth 2023 iDactum Tecnologia Imobiliária - Todos os direitos reservados.</span>
+ 
 </footer>
 );
 }
