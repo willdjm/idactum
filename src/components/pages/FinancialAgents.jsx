@@ -103,11 +103,11 @@ return (
     {/* Bloco6 */}
     <div className="flex items-center justify-center justify-items-center pb-10">
         <div className="flex flex-col justify-items-center items-start justify-start gap-3 text-white max-w-xl">
-            <p className=" text-xl font-medium text-white">Landbanks</p>
-            <p className=" text-lg text-white ">Mapeamento de landbanks e de projetos em desenvolvimento <br />
+            <p className="text-xl font-medium text-white">Landbanks</p>
+            <p className="text-lg text-white">Mapeamento de landbanks e de projetos em desenvolvimento <br />
                 das incorporadoras, incluindo valor da aquisição dos terrenos. <br />
                 (nome da incorporadora, movimentações e valores de transação do terreno)</p>
-            <ul className="text-white flex flex-col pb-0 gap-2  list-disc list-inside text-base">
+            <ul className="text-white flex flex-col pb-0 gap-2 list-disc list-inside text-base">
                 <li>Análise de cada região da cidade (segmentos e valorização)</li>
                 <li>Perfil dos imóveis encontrados</li>
                 <li>Valorização durante os anos.</li>

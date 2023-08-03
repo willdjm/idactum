@@ -13,23 +13,23 @@ export default function App() {
   return (
 
     <main className="p-1 md:p-1">
-      <div className='flex flex-col justify-center items-center pt-5 md:pt-5 px-5'>
+      <header className='flex justify-center items-center pt-5 md:pt-5 px-5'>
         <Navbar />
-      </div>
+      </header>
       <VideoBanner />
-       <div className='flex flex-col justify-center items-center bg-gray-500'>
+       <div className='flex justify-center items-center bg-gray-500'>
         <OurSolutions />
       </div> 
-      <div id="DevelopersAndInvestors" className='flex flex-col justify-center items-center md:pt-20 text-gray-500'>
+      <div id="DevelopersAndInvestors" className='flex justify-center items-center md:pt-20 text-gray-500'>
         <DevelopersAndInvestors />
       </div>
-     <div id="FinancialAgents" className='flex flex-col justify-center items-center bg-green-500 text-gray-500'>
+     <div id="FinancialAgents" className='flex justify-center items-center bg-green-500 text-gray-500'>
         <FinancialAgents />
       </div>
-      <div className='flex flex-col justify-center items-center py-36'>
+      <div className='flex justify-center items-center py-36'>
         <Contact />
       </div>
-      <footer className='flex flex-col justify-center items-center md:p-20 bg-gradient-to-b from-gray-500 bg-green-500 text-white '>
+      <footer className='flex justify-center items-center md:p-20 bg-gradient-to-b from-gray-500 bg-green-500 text-white'>
         <Footer />
       </footer>
       <ScrollToTopp /> 

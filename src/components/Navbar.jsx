@@ -38,7 +38,7 @@ return (
                     <Link className='cursor-pointer' to="contact" spy={true} smooth={true} duration={500} delay={100} onClick={closeMenu}>Contato</Link>
                 </li>
                 <li>
-                <button className="relative h-7 w-40 overflow-hidden border md:border-gray-500 md:text-gray-500 rounded-full shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-green-500 before:duration-500 before:ease-out hover:text-white hover:border-white hover:before:h-40 hover:before:w-40 ">
+                <button className="relative h-7 w-40 overflow-hidden border md:border-gray-500 md:text-gray-500 rounded-full shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-green-500 before:duration-500 before:ease-out hover:text-white hover:before:h-40 hover:before:w-40 ">
       <span className="relative z-10">Acessar iDactum</span>
     </button>
 </li>
