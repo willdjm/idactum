@@ -11,6 +11,5 @@ export function VideoBanner(){
             </video>
             </dir>
         </div>
-
     );
 }

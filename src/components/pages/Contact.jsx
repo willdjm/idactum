@@ -51,7 +51,7 @@ return (
   {/* Bloco1 */}
   {/* Formulario */}
   <form className='grid md:flex justify-center items-start w-full gap-3 md:gap-24' onSubmit={sendEmail}>
-    <div className='flex flex-col flex-auto gap-3  w-auto'>
+    <div className='flex flex-col flex-auto gap-3 w-auto'>
       <div className="mb-1.5">
         <input
           className="border shadow-md border-gray-600 text-gray-600 text-base rounded-md focus:ring-green-500 focus:border-green-500 block w-full p-3 placeholder:font-semibold"

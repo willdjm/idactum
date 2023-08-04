@@ -12,28 +12,20 @@ import { Whatsapp } from "./components/Whatsapp";
 
 export default function App() {
 
-  return (
+return (
 
-    <main>
-      <header className='flex justify-center items-center pt-5 md:pt-5 px-5'>
-        <Navbar />
-      </header>
-      <VideoBanner />
-        <OurSolutions />
-      
-        <DevelopersAndInvestors />
-        <FinancialAgents />
-   
-        <Contact />
-        <Footer />      
-
-<Whatsapp />
-
-
-   
-       
-
-      <ScrollToTopp /> 
-    </main>
-  )
+  <main>
+    <header className='flex justify-center items-center pt-5 md:pt-5 px-5'>
+      <Navbar />
+    </header>
+    <VideoBanner />
+    <OurSolutions />
+    <DevelopersAndInvestors />
+    <FinancialAgents />
+    <Contact />
+    <Footer />
+    <Whatsapp />
+    <ScrollToTopp />
+  </main>
+)
 }
