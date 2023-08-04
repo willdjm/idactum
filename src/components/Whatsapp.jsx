@@ -1,24 +1,16 @@
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import whats from "../assets/whats.webp";
+import { MdWhatsapp } from "react-icons/md";
 
+export function Whatsapp() {
 
-export function Whatsapp(){
-    return(
-        <div>
-            <dir>
-            <FloatingWhatsApp
-            phoneNumber="+55 11 94567 6016"
-            accountName="iDactum"
-            chatMessage="Bem vindo a iDactum"
-            statusMessage="Inteligencia de dados"
-            placeholder="Digite sua mensagem"
-            allowEsc='true'
-            allowClickAway='true'
-            notification
-            notificationSound
-            avatar={whats}
-            />
-            </dir>
-        </div>
-    );
+return (
+
+<div data-dial-init className="fixed right-40 bottom-8 group">
+
+    <a href="https://wa.me/" target='_blank' rel="noreferrer"
+        className="flex items-center justify-center text-white bg-green-600 rounded-full w-14 h-14 hover:bg-green-700  focus:ring-2  focus:outline-none ">
+        <MdWhatsapp size={35} />
+    </a>
+
+</div>
+);
 }

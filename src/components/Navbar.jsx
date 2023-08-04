@@ -32,24 +32,25 @@ return (
                     <Link className='cursor-pointer' to="/" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu}>Home</Link>
                 </li>
                 <li>
-                    <Link className='cursor-pointer' to="#" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu}>Quem somos</Link>
+                    <Link className='cursor-pointer' to="OurSolutions" spy={true} smooth={true} offset={0} duration={500} delay={100} onClick={closeMenu}>Quem somos</Link>
                 </li>
                 <li>
                     <Link className='cursor-pointer' to="contact" spy={true} smooth={true} duration={500} delay={100} onClick={closeMenu}>Contato</Link>
                 </li>
-                <li>
-                <button className="relative h-7 w-40 overflow-hidden border md:border-gray-500 md:text-gray-500 rounded-full shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-green-500 before:duration-500 before:ease-out hover:text-white hover:before:h-40 hover:before:w-40 ">
-      <span className="relative z-10">Acessar iDactum</span>
+                <li className='group'>
+                <button className="relative h-7 w-40 overflow-hidden border md:border-gray-500 md:text-gray-500 rounded-full shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-green-500 before:duration-500 before:ease-out  hover:before:h-40 hover:before:w-40 ">
+      <span className="relative z-10">Acessar <span className='text-green-500 group-hover:text-white'>i</span>Dactum</span>
     </button>
+
 </li>
                 <li>
-                    <Link to="OurSolutions" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu} className='flex gap-1 items-center justify-center text-lg cursor-pointer'><FaWhatsapp className='md:text-emerald-500 text-white cursor-pointer hover:text-base' size={25} /> (11)-94567-1234</Link>
+                <a className='flex gap-1 items-center justify-center text-sm cursor-pointer' href="https://wa.me/" target='_blank' rel="noreferrer"><FaWhatsapp className='text-green-500 cursor-pointer hover:text-base' size={25} /> (11)-94567-1234</a>
                 </li>
                 <li>
-                    <Link className='cursor-pointer flex flex-col items-center justify-center' to="#" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu}><AiOutlineInstagram size={25} /></Link>
+                <a href="https://instagram.com" target='_blank' rel="noreferrer"><AiOutlineInstagram size={25} /></a>
                 </li>
                 <li>
-                    <Link className='cursor-pointer flex flex-col items-center justify-center' to="#" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu}><FaLinkedin size={25} /></Link>
+                    <a href="https://linkedin.com" target='_blank' rel="noreferrer" ><FaLinkedin size={25} /></a>
                 </li>
             </ul>
             <ul className={click ? 'md:flex md:flex-col flex flex-col gap-5 p-5' : "nav-menu flex justify-end gap-9 font-semibold overline decoration-2 decoration-green-500 text-gray-500"}>
