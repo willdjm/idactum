@@ -1,5 +1,6 @@
 import logo from "../../assets/logo-i360-cinza.webp";
-import video from "../../assets/video-incorporador2.mp4";
+import ReactPlayer from 'react-player'
+
 
 
 import incorporadoras from "../../assets/img-grafico-incorporadoras-1.webp";
@@ -64,10 +65,7 @@ return (
   {/* Bloco3 */}
   <div className="flex items-center justify-center flex-col p-4 md:p-10">
     <h1 className="font-semibold text-gray-500 md:text-2xl text-center items-center">Veja como i360 é a solução ideal para sua atuação no mercado imobiliário</h1>
-    <video className="w-full" controls>
-      <source src={video} type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+    <ReactPlayer url='https://vimeo.com/869521806?share=copy' controls width='1040px' height='660px' />
   </div>
 </div>
 </div>
