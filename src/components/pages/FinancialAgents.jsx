@@ -139,10 +139,6 @@ return (
     <h1 className="font-semibold text-gray-500 md:text-3xl text-center items-center uppercase pt-14">Veja como i360 é a solução ideal para sua atuação no mercado imobiliário</h1>
     <ReactPlayer url='https://vimeo.com/869521806?share=copy' controls width='1340px' height='860px' />
   </div>
-  <div className="md:flex lg:hidden items-center justify-center flex-col p-4 md:p-10 w-full bg-white">
-    <h1 className="font-semibold text-gray-500 md:text-3xl text-center items-center uppercase pt-14">Veja como i360 é a solução ideal para sua atuação no mercado imobiliário</h1>
-    <ReactPlayer url='https://vimeo.com/869521806?share=copy' controls width='650px' height='460px' />
-  </div>
   <div className="flex md:hidden items-center justify-center flex-col p-4 md:p-10 w-full bg-white">
     <h1 className="font-semibold text-gray-500 md:text-3xl text-center items-center uppercase pt-5">Veja como i360 é a solução ideal para sua atuação no mercado imobiliário</h1>
     <ReactPlayer url='https://vimeo.com/869521806?share=copy' controls width='20rem' height='20rem' />
