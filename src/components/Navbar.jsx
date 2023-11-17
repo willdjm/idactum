@@ -16,24 +16,24 @@ const closeMenu = () => setClick(false)
 
 return (
 
-<nav className='navbar justify-between flex justify-items-center w-full max-w-6xl'>
+<nav className='navbar justify-between flex justify-items-center w-full max-w-6xl py-5 md:py-0'>
 
     <a href='/' className='logo'>
         <img className='w-52 md:w-full' src={logo} alt='logo' />
     </a>
 
-    <div className='flex items-center justify-center md:hidden' onClick={handleClick}>
+    <div className='flex items-center justify-center lg:hidden' onClick={handleClick}>
         {click ? (<FaTimes size={30} style={{ color: '#000000' }} />)
             : (<FaBars size={30} style={{ color: '#000000' }} />)}
     </div>
 
-    <div className={click ? "nav-menu active flex flex-col text-center top-20 w-full left-0 bg-gray-500 text-white font-medium" : "nav-menu flex flex-col gap-5 text-gray-500"}>
+    <div className={click ? "nav-menu active flex flex-col text-center top-24 w-full left-0 bg-gray-500 text-white font-medium" : "nav-menu flex flex-col gap-5 text-gray-500"}>
         <ul className={click ? 'md:flex md:flex-col flex flex-col items-center gap-5 p-5' : "nav-menu flex gap-5 font-medium"}>
             <li>
                 <Link className='cursor-pointer' to="/" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={closeMenu}>Home</Link>
             </li>
             <li>
-                <Link className='cursor-pointer' to="OurSolutions" spy={true} smooth={true} offset={0} duration={500} delay={100} onClick={closeMenu}>Quem somos</Link>
+                <Link className='cursor-pointer' to="quemSomos" spy={true} smooth={true} offset={0} duration={500} delay={100} onClick={closeMenu}>Quem somos</Link>
             </li>
             <li>
                 <Link className='cursor-pointer' to="contact" spy={true} smooth={true} duration={500} delay={100} onClick={closeMenu}>Contato</Link>
@@ -61,7 +61,7 @@ return (
                 <Link className='cursor-pointer' to="DevelopersAndInvestors" spy={true} smooth={true} duration={500} delay={100} onClick={closeMenu}>Incorporadoras e Investidores</Link>
             </li>
             <li>
-                <Link className='cursor-pointer' to="FinancialAgents" spy={true} smooth={true} duration={500} delay={100} onClick={closeMenu}>Agentes financeiros</Link>
+                <Link className='cursor-pointer' to="FinancialAgents2" spy={true} smooth={true} duration={500} delay={100} onClick={closeMenu}>Instituições financeiras</Link>
             </li>
         </ul>
     </div>

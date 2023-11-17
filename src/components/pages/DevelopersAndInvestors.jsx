@@ -1,7 +1,4 @@
 import logo from "../../assets/logo-i360-cinza.webp";
-import ReactPlayer from 'react-player'
-
-
 
 import incorporadoras from "../../assets/img-grafico-incorporadoras-1.webp";
 import incorporadoras2 from "../../assets/img-grafico-incorporadoras-2.webp";
@@ -12,16 +9,17 @@ export const DevelopersAndInvestors = () => {
 
 return (
 
-  <div id="DevelopersAndInvestors" className='flex justify-center items-center pt-5 md:pt-20 text-gray-500'>
+  <div className='flex justify-center items-center pt-5 md:pt-20 text-gray-500 relative z-10 px-5'>
 <div className="flex flex-col justify-between justify-items-center max-w-6xl gap-5 md:gap-20">
-  <div className="grid md:flex items-end gap-4 md:gap-8 justify-items-center justify-center max-w-6xl">
+<h1 className='text-center font-bold text-4xl md:text-5xl pt-8'>Conheça nossos produtos:</h1>
+  <div id="DevelopersAndInvestors" className="grid lg:flex items-end gap-4 md:gap-8 justify-items-center justify-center max-w-6xl">
     <img src={logo} alt="" />
     <h1 className='text-center font-medium text-4xl md:text-5xl'><span className='text-green-500'>i</span>ncorporadoras e <span className='text-green-500'>i</span>nvestidores</h1>
   </div>
-  <div className="grid md:flex justify-items-center gap-2 md:gap-10 justify-between max-w-6xl">
+  <div className="grid lg:flex justify-items-center gap-2 lg:gap-10 lg:justify-between max-w-6xl">
     <div className="flex flex-col max-w-xl gap-5 md:gap-10 p-5 md:p-0">
-      <h2 className="md:text-[1.75rem] text-xl text-center md:text-left font-semibold">Dê às suas incorporações imobiliárias a segurança que só os dados podem garantir.</h2>
-      <p className="md:text-xl text-xl md:text-justify text-center">A plataforma inteligente que compila e segmenta os dados oriundos do mercado imobiliário, abrindo terreno para incorporadoras tomarem decisões mais assertivas, viáveis e rentáveis.</p>
+      <h2 className="md:text-2xl max-w-lg text-xl text-center md:text-left font-bold">Dê às suas incorporações imobiliárias a segurança que só os dados podem garantir.</h2>
+      <p className="md:text-xl text-xl md:text-left max-w-lg text-center">Reunimos de forma inédita informações desde a formação de áreas de futuros empreendimentos, passando pelo mapeamento exaustivo dos projetos, até os lançamentos e imóveis prontos. Tudo isso em uma única visão 360!</p>
     </div>
     <div className="flex flex-col max-w-xl md:py-10 py-10 p-10 md:px-10 md:pb-24 gap-5 bg-gray-300 bg-opacity-90 rounded-2xl">
       <h2 className="text-xl text-black text-center md:text-left">Acesso a informações para visão estratégica:</h2>
@@ -32,41 +30,36 @@ return (
       </ul>
     </div>
   </div>
-  <ol className="grid md:flex justify-items-center items-center justify-center max-w-6xl">
-          <img className="hidden md:flex md:absolute  md:items-center" src={traco} alt="" /> 
-    <li className="items-center flex flex-col relative md:bottom-40 md:-left-5">
+  <ol className="grid lg:flex justify-items-center items-center justify-center max-w-6xl">
+          <img className="hidden lg:flex lg:absolute  lg:items-center" src={traco} alt="" /> 
+    <li className="items-center flex flex-col relative lg:bottom-40 lg:-left-5">
       <span className="flex text-base font-bold text-green-500 text-center items-center justify-center">
-        Desde a prospecção
+      Desde a formação de áreas
       </span>
-      <span className="flex text-base text-center items-center justify-center font-semibold">
-        A inteligência i360 da iDactum identifica dados importantes para viabilidade e decisão de projetos de incorporação
+      <span className="flex text-base text-center items-center justify-center font-medium max-w-xl">
+      ter uma visão dos landbanks e projetos permite a incorporadora antecipar os futuros lançamentos de determinada região.
       </span>
       <img className="p-5" src={incorporadoras} alt="" />
     </li>
-    <li className="items-center flex flex-col relative md:bottom-12">
+    <li className="items-center flex flex-col relative lg:bottom-12">
       <span className="flex text-base font-bold text-green-500 text-center items-center justify-center">
         Com dados estratégicos
       </span>
-      <span className="flex text-base text-center items-center justify-center font-semibold">
-        A ferramenta i360 colhe dados reais e atualizados com possibilidade de cruzamentos que fortalecem diferenciais comerciais para atrair investidores
+      <span className="flex text-base text-center items-center justify-center font-medium max-w-xl">
+      A ferramenta i360 colhe dados reais e atualizados com possibilidade de cruzamentos que mitigam riscos nos empreendimentos.
       </span>
       <img src={incorporadoras2} alt="" />
     </li>
-    <li className="items-center flex flex-col relative md:bottom-40 md:left-0">
+    <li className="items-center flex flex-col relative lg:bottom-40 lg:left-0 max-w-md w-full">
       <img className="p-5" src={incorporadoras3} alt="" />
       <span className="flex text-base font-bold text-green-500 text-center items-center justify-center">
         Otimiza a tomada de decisão
       </span>
-      <span className="flex text-base text-center items-center justify-center font-semibold">
-        Com visão tridimensional do mercado que só o tratamento de dados da solução i360 pode garantir
+      <span className="flex text-base text-center items-center justify-center font-medium max-w-xs w-64">
+      Com visão profunda do mercado que só o tratamento de dados da solução i360 pode garantir.
       </span>
     </li>
   </ol>
-  {/* Bloco3 */}
-  <div className="flex items-center justify-center flex-col p-4 md:p-10">
-    <h1 className="font-semibold text-gray-500 md:text-2xl text-center items-center">Veja como i360 é a solução ideal para sua atuação no mercado imobiliário</h1>
-    <ReactPlayer url='https://vimeo.com/869521806?share=copy' controls width='1040px' height='660px' />
-  </div>
 </div>
 </div>
 

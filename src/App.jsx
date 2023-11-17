@@ -8,6 +8,7 @@ import { DevelopersAndInvestors } from "../src/components/pages/DevelopersAndInv
 import { OurSolutions } from "../src/components/pages/OurSolutions";
 import "./global.css";
 import { Whatsapp } from "./components/Whatsapp";
+import { FinancialAgents2 } from "./components/pages/FinancialAgents2";
 
 
 export default function App() {
@@ -22,6 +23,7 @@ return (
     <OurSolutions />
     <DevelopersAndInvestors />
     <FinancialAgents />
+    <FinancialAgents2 />
     <Contact />
     <Footer />
     <Whatsapp />

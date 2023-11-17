@@ -12,7 +12,7 @@ return (
 
 <div className='md:justify-between flex flex-col justify-items-center md:w-full md:max-w-6xl'>
 
-<div className="grid grid-cols-2 md:grid-cols-5 gap-5">
+<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
     <div>
         <h1 className="md:mb-10 text-base font-semibold ">Institucional</h1>
         <ul className="">
@@ -20,7 +20,7 @@ return (
                 <Link className='cursor-pointer hover:underline text-sm' to="/" spy={true} smooth={true} offset={-100} duration={500} delay={100}>Home</Link>
             </li>
             <li className="md:mb-5">
-                <Link className='cursor-pointer hover:underline text-sm' to="OurSolutions" spy={true} smooth={true} offset={0} duration={500} delay={100}>Quem somos</Link>
+                <Link className='cursor-pointer hover:underline text-sm' to="quemSomos" spy={true} smooth={true} offset={0} duration={500} delay={100}>Quem somos</Link>
             </li>
             <li className="md:mb-5">
                 <Link className='cursor-pointer hover:underline text-sm' to="contact" spy={true} smooth={true} offset={50} duration={500} delay={100}>Contato</Link>
@@ -43,10 +43,10 @@ return (
         <h1 className="md:mb-10 text-base font-semibold">iPatri</h1>
         <ul className="">
             <li className="md:mb-5">
-                <Link className='cursor-pointer hover:underline text-sm' to="FinancialAgents" spy={true} smooth={true} offset={0} duration={500} delay={100}>Acessores de Investimento</Link>
+                <Link className='cursor-pointer hover:underline text-sm' to="FinancialAgents2" spy={true} smooth={true} offset={0} duration={500} delay={100}>Acessores de Investimento</Link>
             </li>
             <li>
-                <Link className='cursor-pointer hover:underline text-sm' to="FinancialAgents" spy={true} smooth={true} offset={0} duration={500} delay={100}>Indivíduos</Link>
+                <Link className='cursor-pointer hover:underline text-sm' to="FinancialAgents2" spy={true} smooth={true} offset={0} duration={500} delay={100}>Indivíduos</Link>
             </li>
         </ul>
     </div>
