@@ -1,4 +1,4 @@
-import logo from "../../assets/logo-i360-cinza-branco.webp";
+import logoIPatri from "../../assets/logo-ipatri-cinza-branco.webp";
 import divisao from "../../assets/brilho-branco-bg.webp";
 import seta from "../../assets/seta-cinza.webp";
 import cidadebg from "../../assets/cidade-bg.webp";
@@ -7,12 +7,12 @@ export const FinancialAgents2 = () => {
 
 return (
 
-<div id="FinancialAgents2" className='flex justify-center flex-col items-center bg-green-500 text-gray-500'>
+<div id="FinancialAgents2" className='flex justify-center flex-col items-center bg-green-500 text-gray-500 relative -top-32'>
     <div className="flex flex-col justify-between justify-items-center md:max-w-6xl">
         <img className="flex" src={divisao} alt="" />
         <div className="md:flex md:flex-row flex flex-col md:items-end items-center justify-items-center justify-center md:top-0 md:pb-16 p-3 gap-3 md:gap-10">
-            <img className="md:flex items-center" src={logo} alt="" />
-            <h1 className='font-medium text-gray-500 text-3xl md:text-5xl'>instituições f<span className='text-white text-3xl md:text-5xl'>i</span>nanceiros</h1>
+            <img className="md:flex items-center" src={logoIPatri} alt="" />
+            <h1 className='font-medium text-gray-500 text-3xl md:text-5xl'>instituições f<span className='text-white text-3xl md:text-5xl'>i</span>nanceiras</h1>
         </div>
         <div className="grid lg:flex justify-items-center lg:justify-between p-5 gap-5">
             <div className="flex flex-col md:max-w-lg">
