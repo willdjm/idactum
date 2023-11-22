@@ -14,7 +14,7 @@ return (
             <img className="md:flex items-center" src={logoIPatri} alt="" />
             <h1 className='font-medium text-gray-500 text-3xl md:text-5xl'>instituições f<span className='text-white text-3xl md:text-5xl'>i</span>nanceiras</h1>
         </div>
-        <div className="grid lg:flex justify-items-center lg:justify-between p-5 gap-5">
+        <div className="grid lg:flex justify-items-center lg:justify-center p-5 gap-5 w-full">
             <div className="flex flex-col md:max-w-lg">
                 <h2 className="text-xl md:text-2xl font-bold pb-5 md:pb-10 text-center md:text-left">Tenha uma visão ampliada do mercado e fortaleça a rentabilidade dos investimentos imobiliários dos seus clientes.</h2>
                 <p className="text-lg text-white md:text-justify text-center">Conte com a solução iPatri, e tenha visão ampla do:</p>
@@ -25,15 +25,7 @@ return (
                     <li>Momentos de venda e de compra.</li>
                 </ul>
             </div>
-            <div className="flex flex-col items-start justify-center max-w-xl md:pt-10 p-5 md:p-10 gap-3 md:gap-7 bg-white bg-opacity-30 rounded-3xl font-medium">
-                <p className="md:text-xl text-lg md:text-justify text-center">Conte com a solução i360, e tenha visão ampla do:</p>
-                <ul className="md:text-xl text-lg list-disc list-inside md:gap-1 flex flex-col">
-                    <li>Desenvolvimento imobiliário</li>
-                    <li>Formação de landbanks </li>
-                    <li>Oferta de empreendimentos e preços</li>
-                    <li>Lançamento e performance comercial</li>
-                </ul>
-            </div>
+
         </div>
         <div className='flex flex-col p-5 md:p-20'>
             <ol className="grid gap-5 md:gap-0 lg:flex justify-items-center justify-center items-center max-w-6xl">

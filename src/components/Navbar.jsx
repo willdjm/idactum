@@ -2,8 +2,7 @@ import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from '../assets/logo-idactum.webp'
 import { Link } from "react-scroll";
-import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import { AiOutlineInstagram } from 'react-icons/ai';
+import { FaWhatsapp } from "react-icons/fa";
 
 import './Navbar.css'
 
@@ -45,12 +44,6 @@ return (
             </li>
             <li>
                 <a className='flex gap-1 items-center justify-center text-sm cursor-pointer' href="https://wa.me/" target='_blank' rel="noreferrer"><FaWhatsapp className='text-green-500 cursor-pointer hover:text-base' size={25} /> (11)-94567-1234</a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target='_blank' rel="noreferrer"><AiOutlineInstagram size={25} /></a>
-            </li>
-            <li>
-                <a href="https://linkedin.com" target='_blank' rel="noreferrer" ><FaLinkedin size={25} /></a>
             </li>
         </ul>
         <ul className={click ? 'md:flex md:flex-col flex flex-col gap-5 p-5' : "nav-menu flex justify-end gap-9 font-semibold overline decoration-2 decoration-green-500 text-gray-500"}>

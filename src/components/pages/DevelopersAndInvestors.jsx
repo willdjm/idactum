@@ -24,7 +24,7 @@ return (
     <div className="flex flex-col max-w-xl md:py-10 py-10 p-10 md:px-10 md:pb-24 gap-5 bg-gray-300 bg-opacity-90 rounded-2xl">
       <h2 className="text-xl text-black text-center md:text-left">Acesso a informações para visão estratégica:</h2>
       <ul className="text-xl list-disc flex flex-col gap-3">
-        <li>A maneira mais completa de enxergar o desenvolvimento imobiliário de São Paulo</li>
+        <li>A maneira mais completa de enxergar o desenvolvimento imobiliário das cidades</li>
         <li>Landbank, projetos em desenvolvimento, lançamentos e empreendimentos prontos em uma só plataforma</li>
         <li>Características de empreendimentos e projetos, dados de transação e estimativa de valorização.</li>
       </ul>

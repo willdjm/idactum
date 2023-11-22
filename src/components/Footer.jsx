@@ -1,8 +1,6 @@
-import { AiOutlineInstagram } from 'react-icons/ai';
-import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-scroll";
-
 
 export function Footer() {
 
@@ -56,14 +54,7 @@ return (
             <div className='flex md:mb-5 md:gap-1 items-center'>
                 <a className='flex gap-1 items-center justify-center text-sm cursor-pointer' href="https://wa.me/" target='_blank' rel="noreferrer"><FaWhatsapp className='text-white cursor-pointer hover:text-base' size={25} /> (11)-94567-1234</a>
             </div>
-            <div className='md:mb-5 flex md:gap-14 items-center'>
-                <li>
-                    <a href="https://instagram.com" target='_blank' rel="noreferrer"><AiOutlineInstagram size={25} /></a>
-                </li>
-                <li>
-                    <a href="https://linkedin.com" target='_blank' rel="noreferrer" ><FaLinkedin size={25} /></a>
-                </li>
-            </div>
+
             <div className='flex md:mb-5 md:gap-1 items-center'>
                 <li>
                     <Link to="contact" spy={true} smooth={true} duration={500} delay={0} className='flex gap-1 items-center justify-center text-sm cursor-pointer'><MdEmail className='text-white cursor-pointer hover:text-base' size={25} />Envie e-mail</Link>
