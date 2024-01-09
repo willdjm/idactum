@@ -10,7 +10,6 @@ import "./global.css";
 import { Whatsapp } from "./components/Whatsapp";
 import { FinancialAgents2 } from "./components/pages/FinancialAgents2";
 
-
 export default function App() {
 
 return (

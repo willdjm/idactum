@@ -52,7 +52,7 @@ return (
         <h1 className="md:mb-10 text-base font-semibold">Contato</h1>
         <ul className="">
             <div className='flex md:mb-5 md:gap-1 items-center'>
-                <a className='flex gap-1 items-center justify-center text-sm cursor-pointer' href="https://wa.me/" target='_blank' rel="noreferrer"><FaWhatsapp className='text-white cursor-pointer hover:text-base' size={25} /> (11) 99776-0614</a>
+                <a className='flex gap-1 items-center justify-center text-sm cursor-pointer' href="https://wa.me/+5511997760614" target='_blank' rel="noreferrer"><FaWhatsapp className='text-white cursor-pointer hover:text-base' size={25} /> (11) 99776-0614</a>
             </div>
 
             <div className='flex md:mb-5 md:gap-1 items-center'>
@@ -73,10 +73,28 @@ return (
         </ul>
     </div>
 </div>
-<div className="flex md:items-end relative md:right-[10.5rem] md:justify-end justify-center items-center md:justify-items-end">
-    <p className='text-xs md:text-left text-center md:flex md:text-sm justify-center justify-items-center flex p-3 md:p-0'>R. 24 de Outubro 1440 - Sala 1506 - Independência <br /> CEP 90510-001 - Porto Alegre - RS</p>
+<div className="flex md:items-end relative md:right-8 md:justify-end justify-center items-center md:justify-items-end">
+    <p className='text-xs md:text-left text-center md:flex md:text-sm justify-center justify-items-center flex p-3 md:p-0'>Avenida da Aclimação 690 - Aclimação <br /> CEP 01531-000 - São Paulo</p>
 </div>
-<span className="md:text-xs text-xs md:text-left text-center p-2">© Copyrigth 2023 iDactum Tecnologia Imobiliária - Todos os direitos reservados.</span>
+<div className='grid lg:flex w-full lg:justify-between gap-3 lg:pt-5'>
+<span className="md:text-xs text-xs md:text-left text-center p-2 mt-5">© Copyrigth 2023 iDactum Tecnologia Imobiliária - Todos os direitos reservados.</span>
+
+
+            <div className='flex items-center justify-center gap-5 opacity-70'>
+                <a className='ml-2' href="https://sacorp.tec.br/" target='_blank' rel="noreferrer">
+                    <picture>
+                        <img src="/logo-sacorp.svg" alt="logo Sacorp" width={100} height={100} loading="lazy" className='lg:w-16 w-14' />
+                    </picture>
+                </a>
+                <a href="https://www.gukenz.com.br/" target='_blank' rel="noreferrer">
+                    <picture>
+                        <img src="/logo-gukenz.svg" alt="logo Gukenz" width={100} height={100} className='lg:w-16 w-14' />
+                    </picture>
+                </a>
+            </div>
+
+      
+    </div>
 </div>
 </footer>
 );

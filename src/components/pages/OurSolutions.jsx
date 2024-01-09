@@ -32,7 +32,7 @@ para incorporadoras, bancos e assessorias de investimento.
                     </span>
                 </li>
                 <li className="flex items-center relative lg:bottom-5 lg:left-0 z-20">
-                    <span className="flex p-5 text-sm lg:text-base lg:p-5 text-center items-center justify-center lg:w-48 w-40 lg:h-48 h-40 bg-gray-500 border border-whit rounded-full">
+                    <span className="flex p-4 text-sm lg:text-base lg:p-5 text-center items-center justify-center lg:w-48 w-40 lg:h-48 h-40 bg-gray-500 border border-whit rounded-full">
                     Visão completa e com profundidade do ecossistema imobiliário
                     </span>
                 </li>
@@ -49,7 +49,7 @@ para incorporadoras, bancos e assessorias de investimento.
             </ol>
         </div>
         {/* Bloco3 */}
-        <div className='grid lg:flex items-center justify-center justify-items-center p-5 lg:p-0 lg:pb-10 lg:relative lg:-top-20 pt-10 lg:pt-0 z-0'>
+        <div className='grid lg:flex items-center justify-center justify-items-center p-5 lg:p-0 lg:pb-10 lg:relative lg:-top-20 pt-16 lg:pt-0 z-0'>
 
             <div className="items-center justify-center flex absolute">
                 <span className="flex bg-green-500 lg:text-base text-sm text-center items-center justify-center lg:w-44 w-36 p-9 text-white lg:h-44 h-36 rounded-full relative lg:bottom-5 bottom-28 lg:right-56 z-20">100% digital e rápida. Na palma da sua mão.</span>

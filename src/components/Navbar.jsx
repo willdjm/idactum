@@ -43,7 +43,7 @@ return (
                 </button>
             </li>
             <li>
-                <a className='flex gap-1 items-center justify-center text-sm cursor-pointer' href="https://wa.me/" target='_blank' rel="noreferrer"><FaWhatsapp className='text-green-500 cursor-pointer hover:text-base' size={25} /> (11) 99776-0614</a>
+                <a className='flex gap-1 items-center justify-center text-sm cursor-pointer' href="https://wa.me/+5511997760614" target='_blank' rel="noreferrer"><FaWhatsapp className='text-green-500 cursor-pointer hover:text-base' size={25} /> (11) 99776-0614</a>
             </li>
         </ul>
         <ul className={click ? 'md:flex md:flex-col flex flex-col gap-5 p-5' : "nav-menu flex justify-end gap-9 font-semibold overline decoration-2 decoration-green-500 text-gray-500"}>
