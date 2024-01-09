@@ -52,7 +52,7 @@ return (
         <h1 className="md:mb-10 text-base font-semibold">Contato</h1>
         <ul className="">
             <div className='flex md:mb-5 md:gap-1 items-center'>
-                <a className='flex gap-1 items-center justify-center text-sm cursor-pointer' href="https://wa.me/" target='_blank' rel="noreferrer"><FaWhatsapp className='text-white cursor-pointer hover:text-base' size={25} /> (11)-94567-1234</a>
+                <a className='flex gap-1 items-center justify-center text-sm cursor-pointer' href="https://wa.me/" target='_blank' rel="noreferrer"><FaWhatsapp className='text-white cursor-pointer hover:text-base' size={25} /> (11) 99776-0614</a>
             </div>
 
             <div className='flex md:mb-5 md:gap-1 items-center'>
